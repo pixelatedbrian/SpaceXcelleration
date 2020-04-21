@@ -1,3 +1,6 @@
+# videos and bigger files will go here, which we don't want in the repo
+data/downloads/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
