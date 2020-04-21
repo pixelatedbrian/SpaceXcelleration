@@ -277,11 +277,11 @@ def process_frame(frame, debug=False):
 
 def predict_time_mode(cropped_mask):
     # T- example:
-    t_min = np.load("../weights/t_minus_golden_mask.npy")
+    t_min = np.load("../models/t_minus_golden_mask.npy")
 #     print("t_min.shape", t_min.shape)
 
     # T+ example:
-    t_max = np.load("../weights/t_plus_golden_mask.npy")
+    t_max = np.load("../models/t_plus_golden_mask.npy")
 #     print("t_max.shape", t_max.shape)
     
     # the exemplar masks have been flattened into 1D arrays:
